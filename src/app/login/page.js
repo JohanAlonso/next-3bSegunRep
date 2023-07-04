@@ -9,3 +9,8 @@ export default function Login() {
         </div>
     )
 }
+
+git remote add origin 
+https://<username>:<token>@github.com/<username>/<repoName>.git
+
+git remote add origin https://KalioPacheco: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@github.com/KalioPacheco/next-3b.git

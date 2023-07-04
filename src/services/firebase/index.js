@@ -34,9 +34,84 @@ hola("Victor")
   }
 )("Victor");
 
+function something() {
+
+}
+
+setTimeout(function() {}, 1500);
+setImmediate(function() {
+
+})
+console.log("jhdkj")
+
+const promise = new Promise(
+  (resolve, reject) => {
+    try {
+      // something
+      resolve("todo okay")
+    } catch {
+      reject("something error")
+    }
+  }
+)
+
+promise
+.then((result) => {console.log(result)})
+.catch((error) => {console.log(error)})
+
+// .then
+// .catch
+
+async function promiseFunction() {
+  const promise = await new Promise(
+    (resolve, reject) => {
+      try {
+        // something
+        reject("something error")
+        resolve("todo okay")
+      } catch {
+        reject("something error")
+      }
+    }
+  )
+  return promise;
+}
+
+promiseFunction();
+
+
 // tareas bloqueantes, no bloqueantes
 // tareas sincronicas y asincronicas
 // polling o poll
 // timers
 // callback
-// tipos de funciones
+// Función declarativa
+// función de expresión
+// función flecha o arrow function
+// IIFE
+// parametros y argumentos
+// timers (setTimeout, setImmediate)
+// colas y pilas
+// Promesas
+
+
+
+
+
+
+
+
+// Función declarativa
+// función de expresión
+// función flecha o arrow function
+// callbacks
+// Promesas
+// eventos bloqueantes (sincronico)
+// eventos no blqueantes (asincronico)
+// javascript es mono hilo - multihilo
+// polling
+// Pilas y Colas
+// timers (setTimeout, setImmediate)
+// event loop
+// IIFE
+// parametros y argumentos

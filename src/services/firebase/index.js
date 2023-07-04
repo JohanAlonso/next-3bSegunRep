@@ -99,6 +99,12 @@ promiseFunction();
 
 
 
+kjkjhgrt
+
+
+
+
+
 
 
 // Función declarativa
